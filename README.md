@@ -44,7 +44,7 @@ For your first time, run `git push -u origin master`, where master is the channe
 ## Git Repository Updated!
 
 <details markdown="1">
-  <summary>### For Subsequent Submissions</summary>
+  <summary>Subsequent Submissions</summary>
 If you've not restarted you virtual environment:
 
 Run `python -m venv .[venvname]`; venvname being your choice of environment name.
