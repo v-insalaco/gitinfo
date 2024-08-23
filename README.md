@@ -6,6 +6,8 @@ This readme will help you push a repository to your online Github Repository.
 
 Run `python -m venv .[venvname]`; venvname being your choice of environment name.
 
+If you've already files in your folder, make sure your `.gitignore` file is ignoring the .venvname for all the dependency files, and .env if you're using credentials.
+
 Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name.
 
 ### 2. Configure Git
@@ -16,25 +18,29 @@ run `git config --global user.email "@gmail.com"`
 
 ### 3. Initiate and ready Git
 
-run `git init` to start git on your terminal
+run `git init` to start git on your terminal.
 
-Make sure your `.gitignore` file is ignoring the .venvname for all the dependency files, and .env if you're using credentials etc.
+Make sure your `.gitignore` file is ignoring the .venvname for all the dependency files, and .env if you're using credentials.
 
-run `git add .` to add your repository to the queue to add
+run `git add .` to add your repository to the update queue.
 
 ### 4. Inital Commit and Remote URL adding
 
-Run `git commit -m "Initial commit message"` to get your repository ready
+Run `git commit -m "Initial commit message"` to get your repository ready.
 
 Create a Git repository on Github.com
 
-run `git remote add origin YOUR_REPOSITORY_URL`, with YOUR_REPOSITORY_URL as the
+run `git remote add origin YOUR_REPOSITORY_URL`, with YOUR_REPOSITORY_URL defined.
+
+Or run `git remote set-url origin YOUR_REPOSITORY_URL` if you want to change the URL.
 
 ### 5. Push your Git Repository
 
-For your first time, run `git push -u origin master`, where master is the channel name you're pushing to
+For your first time, run `git push -u origin master`, where master is the channel name you're pushing to.
 
-### 6. Every subsequent submission
+## Git Repository Updated!
+
+### For Every Subsequent Submission
 
 If you've not restarted you virtual environment:
 
@@ -48,7 +54,7 @@ run `git init`
 
 run `git add .`
 
-run `git commit -m "IMessage to document changes made"`
+run `git commit -m "Message to document changes made"`
 
 run `git push -u origin master` to push the first time of the session.
 
