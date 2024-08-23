@@ -32,6 +32,12 @@ Create a Git repository on Github.com
 
 run `git remote add origin YOUR_REPOSITORY_URL`, with YOUR_REPOSITORY_URL defined.
 
+<details markdown="1">
+  <summary>Table of Contents</summary>
+  1. new
+  2. Old
+</details>
+
 Or run `git remote set-url origin YOUR_REPOSITORY_URL` if you want to change the URL.
 
 ### 5. Push your Git Repository
