@@ -33,12 +33,9 @@ Create a Git repository on Github.com
 run `git remote add origin YOUR_REPOSITORY_URL`, with YOUR_REPOSITORY_URL defined.
 
 <details markdown="1">
-  <summary>Table of Contents</summary>
-  1. new
-  2. Old
+  <summary>Changing the URL</summary>
+  run `git remote set-url origin YOUR_REPOSITORY_URL` if you want to change the URL.
 </details>
-
-Or run `git remote set-url origin YOUR_REPOSITORY_URL` if you want to change the URL.
 
 ### 5. Push your Git Repository
 
@@ -46,8 +43,8 @@ For your first time, run `git push -u origin master`, where master is the channe
 
 ## Git Repository Updated!
 
-### For Every Subsequent Submission
-
+<details markdown="1">
+  <summary>### For Subsequent Submissions</summary>
 If you've not restarted you virtual environment:
 
 Run `python -m venv .[venvname]`; venvname being your choice of environment name.
@@ -67,3 +64,4 @@ run `git push -u origin master` to push the first time of the session.
 run `git push` subsequently.
 
 Or run `git push origin master --force` if you want to overwrite the remote repository completely.
+</details>
