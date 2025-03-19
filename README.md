@@ -4,7 +4,7 @@ This readme will help you push a repository to your online Github Repository.
 
 ### 1. Create & Activate Virtual Environment
 
-Run `python -m venv .[venvname]`; venvname being your choice of environment name.
+Run `py -3.10 -m venv .[venvname]`; venvname being your choice of environment name, and here we're specifying the Python version to work with Azure.
 
 If you've already files in your folder, make sure your `.gitignore` file is ignoring the .venvname for all the dependency files, and .env if you're using credentials.
 
@@ -50,7 +50,7 @@ If you've not restarted you virtual environment:
 
 Run `python -m venv .[venvname]`; venvname being your choice of environment name.
 
-Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name.
+Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name to activate it.
 
 With your virtual environment running:
 
