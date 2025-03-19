@@ -2,6 +2,8 @@
 
 This readme will help you push a repository to your online Github Repository.
 
+Jump to advice for [Subsequent Submissions](#subsequent-submissions) below.
+
 ### 1. Create & Activate Virtual Environment
 
 Run `py -3.10 -m venv .[venvname]`; venvname being your choice of environment name, and here we're specifying the Python version to work with Azure.
@@ -43,8 +45,7 @@ For your first time, run `git push -u origin master`, where master is the channe
 
 ## Git Repository Updated!
 
-<details markdown="1">
-  <summary>Subsequent Submissions</summary>
+## Subsequent Submissions
   
 If you've not restarted you virtual environment:
 
