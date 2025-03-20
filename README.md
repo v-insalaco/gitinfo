@@ -49,8 +49,6 @@ For your first time, run `git push -u origin master`, where master is the channe
   
 If you've not restarted you virtual environment:
 
-Run `python -m venv .[venvname]`; venvname being your choice of environment name.
-
 Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name to activate it.
 
 With your virtual environment running:
