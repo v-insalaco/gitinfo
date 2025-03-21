@@ -1,8 +1,30 @@
 # Git Repository Info Sheet
 
-This readme will help you push a repository to your online Github Repository.
+This readme will help you push a code repository to your online Github Repository, and start up your virtual environment when you come back the next time.
 
-Jump to advice for [Subsequent Submissions](#subsequent-submissions) below.
+Jump to advice for [First Time](#first-time) below.
+
+## Starting again when you come back
+  
+If you've not restarted your virtual environment:
+
+Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name to activate it.
+
+With your virtual environment running:
+
+run `git init`
+
+run `git add .`
+
+run `git commit -m "Message to document changes made"`
+
+run `git push -u origin master` to push the first time of the session.
+
+run `git push` subsequently.
+
+Or run `git push origin master --force` if you want to overwrite the remote repository completely.
+
+## First Time
 
 ### 1. Create & Activate Virtual Environment
 
@@ -44,24 +66,3 @@ run `git remote add origin YOUR_REPOSITORY_URL`, with YOUR_REPOSITORY_URL define
 For your first time, run `git push -u origin master`, where master is the channel name you're pushing to.
 
 ## Git Repository Updated!
-
-## Subsequent Submissions
-  
-If you've not restarted you virtual environment:
-
-Run `.[venvname]\Scripts\activate`, venvname being your choice of environment name to activate it.
-
-With your virtual environment running:
-
-run `git init`
-
-run `git add .`
-
-run `git commit -m "Message to document changes made"`
-
-run `git push -u origin master` to push the first time of the session.
-
-run `git push` subsequently.
-
-Or run `git push origin master --force` if you want to overwrite the remote repository completely.
-</details>
